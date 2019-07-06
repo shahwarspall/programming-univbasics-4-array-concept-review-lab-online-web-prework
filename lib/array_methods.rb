@@ -1,16 +1,12 @@
 def find_element_index(array, value_to_find)
-counter=[0]
-array=[1,2,3]
-while array[counter] do
-  puts array[counter] += 1
-
+ return array.index(value_to_find) {|index| return index}
 end
 
 
 def find_max_value(array)
-   array
+   return array.max
 end
 
 def find_min_value(array)
-  # Add your solution here
+  return array.min
 end
